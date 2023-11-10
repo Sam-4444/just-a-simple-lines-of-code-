@@ -21,6 +21,17 @@ a=master("sam",44,"Programmer")
 a.say_hello()
 
 
+myList = [0, 1, 2, 3, 4, 5, 6]
+for i in range(len(myList)):
+    print(myList[i])
+
+i = 0
+while i < len(myList):
+    print(myList[i])
+    i += 1
+
+
+
 class learner :
     def __init__(self,name="Sam !",age=0):
         self.name=name
